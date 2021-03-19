@@ -1,0 +1,63 @@
+Form {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.Title_Frame {
+  margin-top: 100px;
+  color: white;
+  font-family: menlo;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+
+.error {
+  margin-top: 3px;
+  margin-left: 18px;
+  color: white;
+  font-family: Menlo;
+  font-size: 10px;
+}
+
+input {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: "#AAAAAA";
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid;
+  border-color: orange;
+  padding-right: 100px;
+  border-radius: 4px;
+  height: 35px;
+  width: 350px;
+}
+
+input[type="text"],
+select {
+  color: white;
+  padding-left: 5px;
+}
+
+::placeholder {
+  padding-left: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+form {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: orange;
+}
+
+button {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+}
