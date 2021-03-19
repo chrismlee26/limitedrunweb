@@ -4,10 +4,10 @@ Form {
 }
 
 .Title_Frame {
-  margin-top: 100px;
+  margin-top: 5%;
   color: white;
   font-family: menlo;
-  font-size: 30px;
+  font-size: x-large;
   letter-spacing: 10px;
   font-weight: 100;
 }
@@ -25,12 +25,25 @@ input {
   font-size: 12px;
   color: "#AAAAAA";
   background-color: rgba(0, 0, 0, 0.05);
-  border: 1px solid;
-  border-color: orange;
-  padding-right: 100px;
+  border: 1px solid orange;
   border-radius: 4px;
-  height: 35px;
-  width: 350px;
+  text-align: match-parent;
+}
+
+input::selection,
+input:focus,
+input:active,
+input:-internal-autofill-selected {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.35);
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    91.41deg,
+    #ffa500 30.19%,
+    #956000 88.51%
+  );
+  /* border: 13px solid linear-gradient(91.41deg, #ffa500 30.19%, #956000 88.51%); */
 }
 
 input[type="text"],
@@ -48,6 +61,7 @@ label {
   margin-top: 10px;
   margin-bottom: 5px;
   letter-spacing: 1px;
+  text-align: left;
 }
 
 form {
@@ -60,4 +74,43 @@ button {
   position: absolute;
   right: 20px;
   bottom: 40px;
+}
+
+.project__name {
+  position: absolute;
+  top: 18%;
+  left: 3%;
+}
+
+.checkbox_left {
+  color: white;
+  position: absolute;
+  top: 28%;
+  left: 3%;
+}
+
+.checkbox_mid {
+  color: white;
+  position: absolute;
+  top: 28%;
+  left: 13%;
+}
+
+.checkbox_right {
+  color: white;
+  position: absolute;
+  top: 28%;
+  left: 25%;
+}
+
+.project__summary {
+  position: absolute;
+  top: 40%;
+  left: 3%;
+}
+
+.technical__summary {
+  position: absolute;
+  top: 18%;
+  left: 35%;
 }
