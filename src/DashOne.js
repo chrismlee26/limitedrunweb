@@ -272,11 +272,9 @@ function DashOne() {
             <div className="photo_title">PHOTOS</div>
             <div className="photo_upload">
               <CustomImage
-                style={{ height: 300, width: 300 }}  
+                style={{ height: 95, width: 95 }}  
                 name='photo_upload' 
                 autocomplete="off" 
-                
-                
                 />
             </div>
             <div className="photo_upload2">
