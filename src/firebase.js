@@ -11,8 +11,15 @@ const app = firebase.initializeApp({
   appId: process.env.REACT_APP_FIREBASE_APP_ID
 })
 
-const preObject  = document.getElementById('project-name')
+// Get elements from file
+const projectName  = document.getElementById('project-name')
+
+// References to Firebase
+const dbRefObject = firebase.database().ref().child('project-name')
+
+// Sync changes
+dbRefObject.on('value', snap => console.log(snap.val()));
 
 
-export const auth = app.auth()
+// export const auth = app.auth()
 export default app

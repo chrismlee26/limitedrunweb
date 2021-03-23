@@ -1,0 +1,279 @@
+Form {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.Title_Frame,
+.Fees_Frame {
+  margin-top: 5%;
+  color: white;
+  font-family: menlo;
+  font-size: x-large;
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+
+.Fees_Frame {
+  position: absolute;
+  margin-top: -2%;
+  right: 3%;
+}
+
+.error {
+  margin-top: 3px;
+  margin-left: 18px;
+  color: white;
+  font-family: Menlo;
+  font-size: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea,
+input {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: "#AAAAAA";
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid #ffa500;
+  border-radius: 4px;
+  text-align: match-parent;
+}
+
+textarea:focus,
+textarea:active,
+input::selection,
+input:focus,
+input:active,
+input:-internal-autofill-selected {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2.5px solid;
+  border-radius: 4px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    91.41deg,
+    #ffa500 30.19%,
+    #956000 88.51%
+  );
+}
+
+textarea[type="textarea"],
+input[type="text"],
+select {
+  color: white;
+  padding-left: 5px;
+}
+
+::placeholder {
+  padding-left: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+form {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: orange;
+}
+
+button {
+  position: absolute;
+  right: 3%;
+  bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: orange;
+  cursor: pointer;
+}
+
+/* Project Name */
+
+.project__name {
+  position: absolute;
+  top: 18%;
+  left: 3%;
+}
+
+/* Checkboxes */
+
+input[type="checkbox"]:checked + .checkbox_active {
+  color: orange;
+}
+
+.checkbox_left {
+  color: white;
+  position: absolute;
+  top: 28%;
+  left: 3%;
+}
+
+.checkbox_mid {
+  color: white;
+  position: absolute;
+  top: 28%;
+  left: 13%;
+}
+
+.checkbox_right {
+  color: white;
+  position: absolute;
+  top: 28%;
+  left: 25%;
+}
+
+/* Project Summary */
+
+.project__summary {
+  position: absolute;
+  top: 40%;
+  left: 3%;
+}
+
+/* Min Max Units */
+
+.min_max_units {
+  position: absolute;
+  top: 59%;
+  left: 3%;
+}
+
+.min_units {
+  position: absolute;
+  top: 57%;
+  left: 18.4%;
+}
+
+.max_units {
+  position: absolute;
+  top: 57%;
+  left: 25.3%;
+}
+
+/* Address */
+
+.address {
+  position: absolute;
+  top: 64%;
+  left: 3%;
+}
+
+.city {
+  position: absolute;
+  top: 71%;
+  left: 3%;
+}
+
+.state {
+  position: absolute;
+  top: 71%;
+  left: 17.7%;
+}
+
+.country {
+  position: absolute;
+  top: 76.5%;
+  left: 3%;
+}
+
+.zip {
+  position: absolute;
+  top: 76.5%;
+  left: 17.7%;
+}
+
+.website {
+  position: absolute;
+  top: 85%;
+  left: 3%;
+}
+
+.phone-area {
+  position: absolute;
+  top: 85%;
+  left: 17.7%;
+}
+
+.phone-main {
+  position: absolute;
+  top: 86.5%;
+  left: 22.7%;
+}
+
+/* BEGIN COLUMN 2 */
+
+.technical__summary {
+  position: absolute;
+  top: 18%;
+  left: 35%;
+}
+
+.photo_upload,
+.photo_upload2,
+.photo_upload3,
+.photo_upload4 {
+  position: absolute;
+  top: 65.3%;
+  cursor: pointer;
+}
+
+.photo_title {
+  position: absolute;
+  top: 64%;
+  left: 35%;
+  z-index: 1;
+}
+
+.photo_upload {
+  left: 35%;
+  background: url(https://spng.subpng.com/20190425/uuf/kisspng-computer-icons-scalable-vector-graphics-portable-n-5cc1b72fa7f158.9727963315561992156879.jpg)
+    no-repeat fixed 8px 8px;
+}
+
+.photo_upload2 {
+  left: 42.5%;
+}
+
+.photo_upload3 {
+  left: 50%;
+}
+
+.photo_upload4 {
+  left: 58%;
+}
+
+/* BEGIN COLUMN 3 */
+
+.estimated_timeline {
+  position: absolute;
+  top: 18%;
+  left: 68%;
+}
+
+.estimated_timeline_num {
+  position: absolute;
+  top: 19.5%;
+  left: 87.5%;
+}
+
+.estimated_timeline_units {
+  position: absolute;
+  top: 19.5%;
+  left: 91.5%;
+}
+
+::-webkit-file-upload-button {
+  /* display: none; */
+}

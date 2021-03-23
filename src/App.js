@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Router, Route, Switch } from "react-router";
 import Nav from './Nav'
-// import DashOne from './DashOne'
-import DashTwo from './DashTwo'
+import DashOne from './DashOne'
+// import DashTwo from './DashTwo'
 
 import './App.css';
 
@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      {/* <DashOne /> */}
-      <DashTwo />
+      <DashOne />
+      <div className="photoupload"></div>
     </div>
   );
 }
